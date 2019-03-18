@@ -1,0 +1,36 @@
+# new Git repository
+git init
+
+# chak file with git after any add
+git status
+
+# add in Git repository
+git add
+
+#create after add code and but maseege
+git commit -m "here but maseege"
+
+#create new userName
+git config --global user.name "your name"
+
+#creat new email
+git config --global user.email "your email"
+
+#for view all settings Git
+git config --list
+
+#for git one setting view
+git config user.name --or user.email
+
+#view file git hide
+ls -la
+
+#delete commed line
+clear
+
+#for view histore Git
+git log
+
+#for push data to github
+git push -u origin master
+

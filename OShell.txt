@@ -1,0 +1,43 @@
+# django
+
+# install django
+pip install django
+
+# new project django
+django-admin startproject name
+
+#Run server
+python manage.py runserver
+
+# new App django
+python manage.py startapp name
+
+# install virtualenv
+pip install virtualenv
+
+# carete new virtualenv
+virtualenv name
+
+# start virtualenv
+name/Scripts/activate
+
+# stope virtualenv
+deactivate
+
+# activate my databeas
+python manage.py makemigrations
+
+# after any change in my databeas
+python manage.py migrate
+
+# start shell databeas
+python manage.py shell
+
+# make new user for django
+python manage.py createsuperuser
+
+# view url locle
+pwd
+
+#for view sql after add data with use django
+python manage.py sqlmigrate nameAbb 0001
