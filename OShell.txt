@@ -1,5 +1,8 @@
 # django
 
+#set Scripts/activate Run to PowerShell Administrator 
+Set-ExecutionPolicy Unrestricted
+
 # install django
 pip install django
 
