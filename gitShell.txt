@@ -34,3 +34,8 @@ git log
 #for push data to github
 git push -u origin master
 
+#for conecte on github remote 
+git remote add origin https://github.com/abdu1lhadi/kmoog.git
+
+#for check conecte on github remote
+git remote -v
