@@ -1,15 +1,3 @@
-# new Git repository
-git init
-
-# chak file with git after any add
-git status
-
-# add in Git repository
-git add
-
-#create after add code and but maseege
-git commit -m "here but maseege"
-
 #create new userName
 git config --global user.name "your name"
 
@@ -22,15 +10,38 @@ git config --list
 #for git one setting view
 git config user.name --or user.email
 
+# new Git repository
+git init
+
+# chak file with git after any add
+git status
+
+# add in Git repository
+git add
+
+#create after add code and but maseege
+git commit -m "here but maseege"
+
+#for reset head Outside unstage
+git reset HEAD nameFile
+
+#for view histore Git
+git log
+
+#for view histore commit only
+git log --oneline
+
+#for push data to github
+git push -u origin master
+
+
 #view file git hide
 ls -la
 
 #delete commed line
 clear
 
-#for view histore Git
-git log
 
-#for push data to github
-git push -u origin master
+
+
 
