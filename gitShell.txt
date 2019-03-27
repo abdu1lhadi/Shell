@@ -22,6 +22,9 @@ git add
 #create after add code and but maseege
 git commit -m "here but maseege"
 
+#To arrange rows without adding code use
+git commit -am "but maseege here"
+
 #for reset head Outside unstage
 git reset HEAD nameFile
 
@@ -31,9 +34,41 @@ git log
 #for view histore commit only
 git log --oneline
 
-#for push data to github
-git push -u origin master
+#checkout commit for check commit only without any diffent in commit
+git checkout id
 
+#for one step back and save back step
+git revert id
+
+#for one step back and delete last commit
+git reset id
+
+#for check branch
+git branch -a
+
+#for caerite new branch
+git branch nameBranch
+
+#for move to branch
+git checkout nameBranch
+
+#for merge another branch mith masterBranch
+git merge nameBranch
+
+#for make new branch and move to branch both
+git checkout -b nameBranch
+
+#view what cheng in file
+git diff
+
+#view what cheng in Staging Area
+git diff --staged
+
+#delete file
+git rm nameFile
+
+# Move and Rename files
+git mv nameFile newFile
 
 #view file git hide
 ls -la
@@ -41,17 +76,31 @@ ls -la
 #delete commed line
 clear
 
+
+#### ###### github ### ##### #####
+
+#for push data one Time to github
+git push yourLink
+
+#for push data to github
+git push -u origin master
+
+#for Updata project in github
+git pull origin master
+
 #for conecte on github remote 
 git remote add origin https://github.com/abdu1lhadi/kmoog.git
 
 #for check conecte on github remote
 git remote -v
 
+#for delete remote
+git remote rm origin
+
 #for import github code
 git clone https://github.com/YOUR-USERNAME/Spoon-Knife
 
-#view what cheng in file
-git diff
+
 
 
 
