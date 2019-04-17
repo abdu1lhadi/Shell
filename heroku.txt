@@ -1,0 +1,14 @@
+#for login on heroku
+heroku login
+
+#for need start heroku first install packages
+pip install gunicorn
+
+#for create new project
+heroku create nameAPP
+
+#for need open URL heroku
+heroku open
+
+#for need push data to heroku
+git push heroku master
