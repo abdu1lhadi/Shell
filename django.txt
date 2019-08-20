@@ -7,10 +7,10 @@ pip install django
 django-admin startproject name
 
 #Run server
-python manage.py runserver
+py manage.py runserver
 
 # new App django
-python manage.py startapp name
+py manage.py startapp name
 
 # install virtualenv
 pip install virtualenv
@@ -25,16 +25,19 @@ name/Scripts/activate
 deactivate
 
 # activate my databeas
-python manage.py makemigrations
+py manage.py makemigrations
 
 # after any change in my databeas
-python manage.py migrate
+py manage.py migrate
 
 # start shell databeas
-python manage.py shell
+py manage.py shell
 
 # make new user for django
-python manage.py createsuperuser
+py manage.py createsuperuser
+
+# for chack any errer to deploy app
+py manage.py check --deploy
 
 # view url locle
 pwd
