@@ -18,3 +18,6 @@ heroku git:remote -a nameAPP
 
 #for check error in heroku app
 heroku logs --tail
+
+#for run heroku 
+heroku run bash

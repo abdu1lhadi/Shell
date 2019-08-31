@@ -1,0 +1,2 @@
+for create file and write inside
+copy con namefile
