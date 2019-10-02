@@ -10,4 +10,6 @@ team.details = 'فريق العرب مقرة في الخليج العربي'
 team.save()
 
 # for view databeas
-Team.object.all() # Team For example You can import to another name
+Team.objects.all() # Team For example You can import to another name
+Team.objects.all().delete() # for delete models with shell
+
